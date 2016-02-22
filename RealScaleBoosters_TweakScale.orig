@@ -1,0 +1,173 @@
+@PART[RSBtankSaturnSIC|RSBtankSaturnSII|RSBdecouplerSaturnSII|RSBnosecone10m]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 10.0
+	}
+}
+@PART[RSBtankSaturn10m7m]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = adapter_4_3
+		defaultScale = 10.0
+	}
+}
+@PART[RSBprobeSaturn|RSBdecouplerSaturnSIVB|RSBtankSaturnSIVB|RSBtankSaturn10m6m|RSBtankSaturn6m5m|RSBnosecone6m]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 6.6
+	}
+}
+@PART[RSBengineRD180|RSBengineF1|RSBengineRS68|RSBnoseconeSTSSRB|RSBengineSTSSRB|RSBengineAresSRB]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 3.75
+	}
+}
+@PART[RSBengineJ2X|RSBengineJ2|RSBengineH1|RSBengineRL10B2|RSBengineRS25|RSBengineVulcain2]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 2.5
+	}
+}
+@PART[RSBengineRL10A42|RSBengineHM7B]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 1.25
+	}
+}
+@PART[RSBtankDeltaIVcore|RSBdecouplerDeltaIV5m|RSBfairingDeltaIV5m|RSBnosecone5m|RSBtankDeltaIVdcss5m|RSB_PLF_DeltaIV5m*]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 5.0
+	}
+}
+@PART[RSBtankDeltaIVdcss4m|RSBdecouplerDeltaIV4m|RSBfairingDeltaIV4m|RSB_PLF_DeltaIV4m*]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 4.0
+	}
+}
+@PART[RSBadapterDeltaIV5m3m]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = adapter_4_3
+		defaultScale = 5.0
+	}
+}
+@PART[RSBdecouplerRadial*|RSBengineAtlasSRB|RSBdeltaIVsrm]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = surface
+	}
+}
+@PART[RSBfairingAresI5m]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 5.5
+	}
+}
+@PART[RSBfairingAtlasCentaur305|RSBnosecone305|RSBtankAtlasCentaur|RSBdecouplerAtlas500Payload|RSB_PLF_AtlasV400*]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 3.05
+	}
+}
+@PART[RSBfairingAtlasCentaur381|RSBnosecone381|RSBinterstageAtlasCentaur*|RSB_PLF_AtlasV500*|RSBtankAtlasVcore]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 3.81
+	}
+}
+@PART[RSBdecouplerDirectET*|RSBadapterDirect3Engines|RSBtankSTSET]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 8.4
+	}
+}
+@PART[RSBdecouplerArianeV|RSBdecouplerSylda5*|RSBtankArianeV*|RSB_PLF_ArianeV5m|RSBfairingArianeV5m|RSBadapterArianeV5m]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 5.4
+	}
+}
+@PART[RSBengineArianeVSRB|RSBnoseconeArianeVSRB]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 3.0
+	}
+}
+@PART[RSBdecouplerArianeVpayload3]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = free
+		defaultScale = 2.5
+	}
+}
+@PART[RSBdecouplerArianeVpayload1]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = adapter_2_1
+		defaultScale = 2.5
+	}
+}
+@PART[RSBdecouplerArianeVpayload2]:HAS[!MODULE[TweakScale]]:NEEDS[TweakScale]
+{
+	MODULE
+	{
+		name = TweakScale
+		type = adapter_4_3
+		defaultScale = 2.5
+	}
+}
+
+
+

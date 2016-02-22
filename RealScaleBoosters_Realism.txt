@@ -1,0 +1,47 @@
+// WARNING
+// WARNING - Incomplete config. Don't enable unless you REALLY know what you're doing.
+// WARNING
+
+
+// Patches for RealismOverhaul, RealFuels, ModularFuelTanks, etc.
+// May not be necessary, with other folks contributing patches to those mods. 
+
+
+@PART[RSB*]:HAS[@RESOURCE[LiquidFuel],@RESOURCE[Oxidizer],!MODULE[ModuleFuelTanks]]:NEEDS[RealFuels|RealismOverhaul|ModularFuelTanks]:FOR[RealScaleBoosters]
+{
+	// This is a default, based on how stock tanks are altered. May need tweaking per tank.
+
+	%Vol = #$RESOURCE[LiquidFuel]/maxAmount$
+	@Vol += #$RESOURCE[Oxidizer]/maxAmount$
+	@Vol *= 5
+
+	MODULE
+	{
+		name = ModuleFuelTanks
+		volume = #$../Vol$
+		type = Default
+	}
+
+	!Vol = 0
+}
+@PART[RSBtankSTSET|RSBtankAresIstage2|RSBinterstageAtlasCentaur*|RSBtankDeltaIVdcss*|RSBtankDeltaIVcore]:HAS[@RESOURCE[LiquidFuel],@RESOURCE[Oxidizer],MODULE[ModuleFuelTanks]]]:FOR[RealScaleBoosters]
+{
+	// Execute after ModuleFuelTanks is added, and just change the type.
+
+	@MODULE[ModuleFuelTanks]
+	{
+		@type = Cryogenic
+	}
+}
+
+@PART[RSB*]:HAS[@RESOURCE[SolidFuel]]:NEEDS[RealFuels|RealismOverhaul]:FOR[RealScaleBoosters]
+{
+	@RESOURCE[SolidFuel]
+	{
+		@amount *= 4.213483
+		@maxAmount *= 4.213483
+	}
+}
+
+
+
